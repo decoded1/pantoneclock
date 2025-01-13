@@ -1,0 +1,30 @@
+.App {
+ text-align: center;
+ height: 100vh;
+}
+
+.clock-container {
+ min-height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: #F4E1A1;
+}
+
+.clock-display {
+ width: 800px;
+ height: 500px;
+ background-color: rgba(0, 0, 0, 0.8);
+ border-radius: 1rem;
+ padding: 3rem;
+ box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.time-display {
+ font-family: 'SF Mono', Menlo, Monaco, 'Courier New', monospace;
+ font-size: 5rem;
+ font-weight: 700;
+ color: white;
+ letter-spacing: 0.2em;
+ margin-bottom: 2rem;
+}
